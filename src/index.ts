@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "NFC logo with Shoe",
+      prompt: "a shoe in space under a beautiful cosmic purple galaxy",
     };
 
     const response = await env.AI.run(
