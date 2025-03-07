@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "NFC tag and Shoe",
+      prompt: "NFC logo with Shoe",
     };
 
     const response = await env.AI.run(
